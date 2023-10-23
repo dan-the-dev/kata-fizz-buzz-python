@@ -1,8 +1,8 @@
 import unittest
-import Main as MainClass
+import FizzBuzz as FizzBuzzClass
 
-class MainTest(unittest.TestCase):
-    main = MainClass.Main()  # instantiate the Person Class
+class FizzBuzzTest(unittest.TestCase):
+    main = FizzBuzzClass.FizzBuzz()  # instantiate the Person Class
 
     # test case function to check the Person.set_name function
     def test_shall_pass(self):
